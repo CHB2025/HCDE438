@@ -1,0 +1,27 @@
+*{
+   box-sizing:border-box;
+}
+
+.emoji {
+   font-size: 2em;
+}
+
+.interesting-button {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   transition: transform 400ms;
+   background: #87ceeb;
+   color: white;
+   margin: 30px;
+}
+
+.interesting-button:hover {
+   transform: scale(1.5);
+   color: #87ceeb;
+   background: white;
+}
+
+.interesting-button:focus {
+   transform: scale(1.5) rotate(180deg);
+}
