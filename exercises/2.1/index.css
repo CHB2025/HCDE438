@@ -1,0 +1,53 @@
+*{
+   box-sizing: border-box;
+}
+html {
+   font-size: 14px;
+   color: #ddd;
+}
+/* tablet */
+@media only screen and (min-width: 480px) {
+   html {
+       font-size: 16px;
+   }
+}
+/* desktop */
+@media only screen and (min-width: 768px) {
+   html {
+       font-size: 18px;
+   }
+}
+/* extra large */
+@media only screen and (min-width: 1024px) {
+   html {
+       font-size: 20px;
+   }
+}
+
+body {
+   margin: 0px;
+   background: #111;
+}
+
+header{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: start;
+   /* Height is decided by the content in the header + padding */
+   width: 100vw;
+   background: linear-gradient(to bottom, #111, #0a0a0a);
+   padding: 1.5rem;
+   border-bottom: black;
+}
+
+.logo {
+   height: 6rem;
+   width: 6rem;
+   /* Image has unwanted text on the bottom, so hiding it by using size=cover and position=top*/
+   background: url(https://logodix.com/logo/48691.png) top no-repeat;
+   background-size: cover;
+}
+h1 {
+   font-size: 3em;
+}
