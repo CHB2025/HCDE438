@@ -1,1 +1,70 @@
+.App {
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+}
+
+.App>* {
+   width: 100%;
+}
+
+.header {
+   height: 4rem;
+   background: violet;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   border-bottom: 2px solid white;
+}
+
+.header * {
+   margin-left: 1rem;
+}
+
+.logo {
+   height: 3rem;
+   width: 3rem;
+   background: url(https://www.clipartmax.com/png/full/39-395435_3d-art-logo-design-free-logos-online-logo-design-free-png.png) no-repeat;
+   background-size: contain;
+}
+
+.message-list {
+   flex: 1 1 auto;
+   background: lightblue;
+   display: flex;
+   flex-direction: column-reverse;
+   overflow-y: scroll;
+}
+
+.input-bar {
+   border-top: 2px solid white;
+   background: skyblue;
+   padding: 1rem;
+   position: relative;
+}
+
+.text-input {
+   color: white;
+   background: black;
+   height: 4rem;
+   width: 100%;
+   border-radius: 2rem;
+   border: 2px solid white;
+   padding: 0rem 5rem 0rem 1rem;
+   font-size: 1rem;
+}
+
+.submit {
+   background-color: white;
+   position: absolute;
+   height: 4rem;
+   width: 4rem;
+   right: 1rem;
+   border-radius: 2rem;
+   border: none;
+   font-size: 2rem;
+}
+
+
 

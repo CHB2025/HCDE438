@@ -1,0 +1,47 @@
+.message-container {
+   width: 100%;
+   display: flex;
+   padding: .5rem 1.5rem;
+}
+
+.message-container.sent {
+   justify-content: flex-end;
+}
+.message-container.received {
+   justify-content: flex-start;
+}
+
+.message {
+   position: relative;
+   max-width: 60%;
+   width: auto;
+   background: black;
+   color: white;
+   padding: 0.5rem 1rem;
+   border-radius: 1rem;
+   border: 2px solid gray;
+}
+.sent>.message::after {
+   content: '';
+   position: absolute;
+   background: black;
+   height: 1rem;
+   width: 1rem;
+   right: -.45rem;
+   bottom: .55rem;
+   transform: rotate(45deg);
+   border-top: 2px solid gray;
+   border-right: 2px solid gray;
+}
+.received>.message::after {
+   content: '';
+   position: absolute;
+   background: black;
+   height: 1rem;
+   width: 1rem;
+   left: -.45rem;
+   bottom: .55rem;
+   transform: rotate(45deg);
+   border-bottom: 2px solid gray;
+   border-left: 2px solid gray;
+}
