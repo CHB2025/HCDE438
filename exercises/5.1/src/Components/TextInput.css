@@ -1,0 +1,41 @@
+.input-bar {
+   border-top: 2px solid white;
+   background: linear-gradient(to right, #108ebf, #f84482);
+   padding: 1rem;
+   position: relative;
+}
+
+.input-form {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 0.5rem;
+}
+
+.text-input {
+   color: white;
+   background: black;
+   flex: 1 0 auto;
+   height: 3rem;
+   border-radius: 2rem;
+   border: 2px solid white;
+   padding: 0rem 5rem 0rem 1rem;
+   font-size: 1rem;
+}
+
+button {
+   background: white;
+   height: 3rem;
+   width: 3rem;
+   border-radius: 1.5rem;
+   border: none;
+   font-size: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.submit {
+   position: absolute;
+   right: 1rem;
+}
