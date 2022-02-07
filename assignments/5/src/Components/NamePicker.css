@@ -1,0 +1,16 @@
+button.np {
+   background: none;
+   border: 2px solid white;
+   border-radius: 5px;
+   color: white;
+   font-size: 0.8rem;
+}
+
+input.np-input {
+   background: black;
+   color: white;
+   height: 2rem;
+   border-radius: 1rem;
+   padding: 0rem 0.75rem;
+   font-size: 0.8rem;
+}
